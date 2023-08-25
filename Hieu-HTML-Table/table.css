@@ -1,0 +1,53 @@
+body {
+    
+    /* background: url(https://th.bing.com/th/id/OIP.YE1iLemo3ZxrmBwT1E5MpAHaEo?pid=ImgDet&rs=1) no-repeat center center;    font-size: 13px; */
+    /* background: rgb(186, 43, 218); */
+    background: linear-gradient(50deg,rgb(90, 50, 221)0%, rgb(211, 51, 236)86%);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+table{
+    
+    transform: translateY(20%);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: .4rem;
+    overflow: hidden;
+}
+
+table, td, th{
+/* border: 1px solid #333 ; */
+border-collapse: collapse;
+
+}
+td, th{
+    padding: 6px 10px;
+    opacity: 0.7;
+    font-size: 14px;
+}
+
+
+table thead th{
+   
+     background-color: #21062a;
+    color: #fff;
+    opacity: 0.9;
+}
+
+.table.table-dark{
+    background: #f6f3f3;
+    color: #000000;
+    
+    
+}
+/* .table.table-hover tbody tr:hover{
+    background: #333;
+} */
+.table.table-hover tbody tr:nth-child(odd){
+    background: #fff;
+   
+    
+}
